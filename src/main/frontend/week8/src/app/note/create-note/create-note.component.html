@@ -1,0 +1,14 @@
+<div class="container">
+    <form [formGroup]="noteForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="note">Your Note</label>
+            <textarea 
+                class="form-control" 
+                id="note" 
+                rows="7"
+                formControlName="note" 
+                ></textarea>
+          </div>
+          <button class="btn btn-dark">Send</button>
+    </form>
+</div>
