@@ -1,6 +1,5 @@
-package pl.akademiaspring.week8.Controllers;
+package pl.akademiaspring.week8.controllers;
 
-import org.aspectj.weaver.ast.Not;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import pl.akademiaspring.week8.models.Note;

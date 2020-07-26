@@ -1,4 +1,4 @@
-package pl.akademiaspring.week8.Controllers;
+package pl.akademiaspring.week8.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
